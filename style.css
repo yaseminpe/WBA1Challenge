@@ -73,6 +73,23 @@ p{
     float: right;
 }
 
-#maincontent{
-    margin-top: -5px;
+footer {
+    width:100%;
+    background-color: #222;
+    padding: 50px 0px;
+    color: white;
+    font-size: 12px;
+    float: left;
+}
+
+.FooterSize{
+    font-size: 12px;
+}
+
+.FooterClass a{
+    font-size: 10px;
+}
+
+.ThKoelnPic{
+    margin-top: 50%;
 }
