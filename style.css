@@ -31,6 +31,9 @@ li a:hover {
 
 .PictureOne{
     float:right;
+    height: 530px;
+    width: 600px;
+
 }
 
 p{
@@ -39,6 +42,15 @@ p{
 
 .PictureTwo{
     float: left;
+    height: 530px;
+    width: 600px;
+}
+
+
+.PictureThree{
+    float: right;
+    height: 530px;
+    width: 640px;
 }
 
 .SektionKlasse{
@@ -61,8 +73,4 @@ p{
     height: -webkit-fill-available;
     clear: both;
     background-color: rgb(44, 62, 75)
-}
-
-.PictureThree{
-    float: right;
 }

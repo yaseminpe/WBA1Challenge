@@ -1,0 +1,4 @@
+AuthName "Passwortgeschütze Seite"
+AuthType Basic
+AuthUserFile /home/selina/index.html/.htpasswd
+require user wba
