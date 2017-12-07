@@ -47,8 +47,9 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: #111;
+a:hover{
+    transition : all 0.5s ease-out;
+    color      : rgb(161, 157, 157);
 }
 
 * {
@@ -56,6 +57,11 @@ li a:hover {
     margin-right: 0;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+
+.PictureThree{
+    float: right;
 }
 
 
@@ -78,4 +84,8 @@ footer {
 
 .ThKoelnPic{
     margin-top: 0%;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7b75afc57be85cc4bf0ef8a05fd1e1f7ab47dd20
