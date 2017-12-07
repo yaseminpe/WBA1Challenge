@@ -23,6 +23,24 @@ li a:hover {
     background-color: #111;
 }
 
+
+footer{
+    
+    position:fixed;
+    bottom:0;
+    left:50%;
+    margin-left:-200;
+    margin-right:-200;
+    margin-top:-200;
+    margin-bottom:-200;
+    width:400px;
+    height:100px;
+}
+a:link { color: rgb(255, 255, 255); }
+
+
+
+
 *{
 margin-left: 0;
 margin-right: 0;
@@ -30,3 +48,7 @@ margin-bottom:0;
 margin-top:0;
 
 }
+
+
+
+
