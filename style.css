@@ -1,0 +1,121 @@
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+p {
+    font-family: 'Montserrat', Medium;
+    color: white;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    font-family: 'Montserrat', Medium;
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+* {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.PictureOne{
+    float:right;
+}
+
+p{
+    margin: 1% 0% 1% 1%;
+}
+
+.PictureTwo{
+    float: left;
+}
+
+.SektionKlasse{
+    display: block;
+}
+
+.row{
+    background-color: #1F37AA
+}
+
+.column{
+    float: right;
+    width: 50%;
+}
+
+.column2{
+    float: left;
+    width: 50%;
+}
+
+.column3{
+    float: right;
+    width: 50%;
+}
+
+.column4{
+    float: left;
+    width: 50%;
+}
+
+.column5{
+    float: right;
+    width: 50%;
+}
+
+
+.column6{
+    float: left;
+    width: 50%;
+}
+
+
+
+.row::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.PictureThree{
+    float: right;
+}
+
+footer {
+    width:100%;
+    background-color: #222;
+    padding: 50px 0px;
+    color: white;
+    font-size: 12px;
+    float: left;
+}
+
+.FooterSize{
+    font-size: 12px;
+}
+
+.FooterClass a{
+    font-size: 10px;
+}
+
+.ThKoelnPic{
+    margin-top: 50%;
+}
+
