@@ -1,0 +1,81 @@
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.row{
+    background-color: #1F374A;
+}
+
+.column {
+    float: right;
+    width: 50%;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p {
+    font-family: 'Montserrat', Medium;
+    color: white;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    font-family: 'Montserrat', Medium;
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+* {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+footer {
+    width:100%;
+    background-color: #222;
+    padding: 50px 0px;
+    color: white;
+    font-size: 12px;
+    float: left;
+}
+
+.FooterSize{
+    font-size: 12px;
+}
+
+.FooterClass a{
+    font-size: 10px;
+}
+
+.ThKoelnPic{
+    margin-top: 0%;
+}
