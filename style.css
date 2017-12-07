@@ -7,9 +7,32 @@ ul {
     background-color: #333;
 }
 
+.row{
+    background-color: #1F374A;
+}
+
+.column {
+    float: right;
+    width: 50%;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 p {
     font-family: 'Montserrat', Medium;
     color: white;
+    margin-top: 3%;
+    margin-left: 3%;
 }
 
 li {
@@ -24,8 +47,9 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: #111;
+a:hover{
+    transition : all 0.5s ease-out;
+    color      : rgb(161, 157, 157);
 }
 
 * {
@@ -35,57 +59,11 @@ li a:hover {
     margin-bottom: 0;
 }
 
-.PictureOne{
-    float:right;
-    height: 530px;
-    width: 600px;
-
-}
-
-p{
-    margin: 1% 0% 1% 1%;
-}
-
-.PictureTwo{
-    float: left;
-    height: 530px;
-    width: 600px;
-}
-
-
-.PictureThree{
-    float: right;
-    height: 530px;
-    width: 640px;
-}
-
-.SektionKlasse{
-    display: block;
-}
-
-#new_line{
-    height: -webkit-fill-available;
-    clear: both;
-    background-color: #1F374A;
-}
-
-.new_line1{
-    height: -webkit-fill-available;
-    clear: both;
-    background-color: rgb(34, 49, 61);
-}
-
-.new_line2{
-    height: -webkit-fill-available;
-    clear: both;
-    background-color: rgb(44, 62, 75);
-}
-<<<<<<< HEAD
-=======
 
 .PictureThree{
     float: right;
 }
+
 
 footer {
     width:100%;
@@ -105,6 +83,5 @@ footer {
 }
 
 .ThKoelnPic{
-    margin-top: 50%;
+    margin-top: 0%;
 }
->>>>>>> 4d2caaf9b9da4d4156a9090c9c4762bb1bc90c8a
