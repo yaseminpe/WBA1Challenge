@@ -1,4 +1,4 @@
-AuthName "Passwortgeschütze Seite"
+AuthName RestrictedArea
 AuthType Basic
-AuthUserFile /home/selina/index.html/.htpasswd
+AuthUserFile /home/inf367/public_html/.htpasswd
 require user wba
