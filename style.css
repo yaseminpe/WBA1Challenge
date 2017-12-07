@@ -7,11 +7,17 @@ ul {
     background-color: #333;
 }
 
+p {
+    font-family: 'Montserrat', Medium;
+    color: white;
+}
+
 li {
     display: inline-block;
 }
 
 li a {
+    font-family: 'Montserrat', Medium;
     display: inline-block;
     color: white;
     padding: 14px 16px;
@@ -60,17 +66,45 @@ p{
 #new_line{
     height: -webkit-fill-available;
     clear: both;
-    background-color: #1F374A
+    background-color: #1F374A;
 }
 
 .new_line1{
     height: -webkit-fill-available;
     clear: both;
-    background-color: rgb(34, 49, 61)
+    background-color: rgb(34, 49, 61);
 }
 
 .new_line2{
     height: -webkit-fill-available;
     clear: both;
-    background-color: rgb(44, 62, 75)
+    background-color: rgb(44, 62, 75);
 }
+<<<<<<< HEAD
+=======
+
+.PictureThree{
+    float: right;
+}
+
+footer {
+    width:100%;
+    background-color: #222;
+    padding: 50px 0px;
+    color: white;
+    font-size: 12px;
+    float: left;
+}
+
+.FooterSize{
+    font-size: 12px;
+}
+
+.FooterClass a{
+    font-size: 10px;
+}
+
+.ThKoelnPic{
+    margin-top: 50%;
+}
+>>>>>>> 4d2caaf9b9da4d4156a9090c9c4762bb1bc90c8a
