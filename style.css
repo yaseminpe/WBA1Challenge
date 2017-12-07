@@ -7,6 +7,27 @@ ul {
     background-color: #333;
 }
 
+.row{
+    background-color: #1F374A;
+}
+
+.column {
+    float: right;
+    width: 50%;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 p {
     font-family: 'Montserrat', Medium;
     color: white;
@@ -35,43 +56,6 @@ li a:hover {
     margin-bottom: 0;
 }
 
-.PictureOne{
-    float:right;
-}
-
-p{
-    margin: 1% 0% 1% 1%;
-}
-
-.PictureTwo{
-    float: left;
-}
-
-.SektionKlasse{
-    display: block;
-}
-
-#new_line{
-    height: -webkit-fill-available;
-    clear: both;
-    background-color: #1F374A;
-}
-
-.new_line1{
-    height: -webkit-fill-available;
-    clear: both;
-    background-color: rgb(34, 49, 61);
-}
-
-.new_line2{
-    height: -webkit-fill-available;
-    clear: both;
-    background-color: rgb(44, 62, 75);
-}
-
-.PictureThree{
-    float: right;
-}
 
 footer {
     width:100%;
@@ -91,5 +75,5 @@ footer {
 }
 
 .ThKoelnPic{
-    margin-top: 50%;
+    margin-top: 0%;
 }
