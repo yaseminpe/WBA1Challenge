@@ -14,7 +14,6 @@ li {
 li a {
     display: inline-block;
     color: white;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -23,10 +22,56 @@ li a:hover {
     background-color: #111;
 }
 
+<<<<<<< HEAD
 *{
 margin-left: 0;
 margin-right: 0;
 margin-bottom:0;
 margin-top:0;
 
+=======
+* {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.PictureOne{
+    float:right;
+}
+
+p{
+    margin: 1% 0% 1% 1%;
+}
+
+.PictureTwo{
+    float: left;
+}
+
+.SektionKlasse{
+    display: block;
+}
+
+#new_line{
+    height: -webkit-fill-available;
+    clear: both;
+    background-color: #1F374A
+}
+
+.new_line1{
+    height: -webkit-fill-available;
+    clear: both;
+    background-color: rgb(34, 49, 61)
+}
+
+.new_line2{
+    height: -webkit-fill-available;
+    clear: both;
+    background-color: rgb(44, 62, 75)
+}
+
+.PictureThree{
+    float: right;
+>>>>>>> b77a987d67e58d04e2e1426f7cdfd6c44856cb38
 }
