@@ -54,21 +54,25 @@ p{
 #new_line{
     height: -webkit-fill-available;
     clear: both;
-    background-color: #1F374A
+    background-color: #1F374A;
 }
 
 .new_line1{
     height: -webkit-fill-available;
     clear: both;
-    background-color: rgb(34, 49, 61)
+    background-color: rgb(34, 49, 61);
 }
 
 .new_line2{
     height: -webkit-fill-available;
     clear: both;
-    background-color: rgb(44, 62, 75)
+    background-color: rgb(44, 62, 75);
 }
 
 .PictureThree{
     float: right;
+}
+
+#maincontent{
+    margin-top: -5px;
 }
